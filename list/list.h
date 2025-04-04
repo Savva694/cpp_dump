@@ -1,3 +1,8 @@
+#include <cmath>
+#include <iostream>
+#include <memory>
+#include <vector>
+
 template <typename T, typename Alloc = std::allocator<T>>
 class List {
  private:
